@@ -1,5 +1,9 @@
 # dbbasic-pipe
 
+[![PyPI version](https://badge.fury.io/py/dbbasic-pipe.svg)](https://badge.fury.io/py/dbbasic-pipe)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 **SQL-style query optimization for Unix pipes**
 
 `dbbasic-pipe` brings bidirectional flow control to Unix pipelines, allowing downstream commands to signal upstream commands to optimize data production—just like SQL query optimizers push predicates down and apply limits early.
